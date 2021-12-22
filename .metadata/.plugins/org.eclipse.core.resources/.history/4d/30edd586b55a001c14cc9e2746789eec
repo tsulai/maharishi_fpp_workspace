@@ -1,0 +1,10 @@
+package HashTableYT;
+
+public class Entry {
+	int key;
+	Object value;
+	Entry next;//array ထဲမှာ linkedlist နဲ့ သိမ်းမှာမို့ ဒီ entry ပြီး next entry သိဖို့လို
+	public Entry() {
+		
+	}
+}

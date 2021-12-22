@@ -1,0 +1,13 @@
+package HashTableYT;
+
+public class HashTableArray<T> {
+	Entry[] arrayHash;//entry တွေပါတဲ့ array - entry obj တစ်ခု ကြေငြာတာမဟုတ်
+	int size;
+	
+	public HashTableArray(int size) {
+		this.size = size;
+		arrayHash = new Entry[size];
+		
+	}
+
+}

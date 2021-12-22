@@ -1,0 +1,16 @@
+package iteratorYT;
+
+public class iteratorYT {
+
+	public static void main(String[] args) {
+		LinkedList<String> names = new LinkedList<String> ();
+		names.push(“John”);
+		names.push(“Smith”);
+		names.push(“Bob”);
+		Iterator it = names.iterator();
+		It.next(); 
+
+
+	}
+
+}

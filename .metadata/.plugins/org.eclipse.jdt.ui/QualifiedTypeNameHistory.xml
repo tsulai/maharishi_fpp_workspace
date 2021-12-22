@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="lesson3.exercise_3.CountInstances"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="prog4_3.AccountList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="prog4_3.employeeinfo.Employee"/>
+    <fullyQualifiedTypeName name="lesson8.exercise_2.Node"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="lesson8.exercise_3.SinglyLinkedList.Node"/>
+    <fullyQualifiedTypeName name="prog7_1.Power"/>
+    <fullyQualifiedTypeName name="prog7_1.Exponential"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.ui.table.SortableTableModel"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.utils.res.StringArrayWrapper"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="prog9_1.MyStringLinkedList.Node"/>
+</qualifiedTypeNameHistroy>

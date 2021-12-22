@@ -1,0 +1,41 @@
+package prog10_2;
+/*A rational number is a real number that can be represented as a fraction of the form 
+p/q, where q > 0 and both p and q are integers. Although Java has data types for 
+integers and floating point numbers, it does not have an explicit data type for rational 
+numbers.
+ * */
+public class Rational {
+	private int p;
+	private int q;
+	
+	Rational(int p, int q){
+		if(q < 1) {
+			System.out.println("Denominator value should be greater than 0.");
+		}else {
+			this.p = p;
+			this.q = q;
+		}
+	}
+	
+	//adds the rational rat to this Rational
+	//5/6 + 8/7 = (5 * 7)/(6*7) + (8*6)/(7*6) = 35/42 + 48/42 = 83/42 = p is 83, q is 42
+	public Rational add(Rational rat) {
+		return new Rational();
+	}
+	//multiplies rat by this Rational
+	public Rational multiply(Rational rat) {
+		
+	}
+	//returns –1 if this rational is less than rat
+	//returns 0 if this rational equals (see equals 
+	// method discussion below) rat
+	//returns 1 if this rational is greater than rat
+	public int compareTo(Rational rat) {
+		
+	}
+	//Mutators and accessors for numerator and denominato
+	@Override
+	public String toString() {
+		return p+"/"+q;
+	}
+}

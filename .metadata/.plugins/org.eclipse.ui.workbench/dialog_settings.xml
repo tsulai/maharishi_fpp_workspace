@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Resources\Lab Solution Selected.Prof Provided\labs8and9solns"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Lab 8\prog8-4_code\prog8-4_code"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Lab 8\prog8-3_code"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Lab 8\prog8-1_startup"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Programming Practise 2\startupCode"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Programming Practise 2\startupCode\midterm_practice\ooproblem"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Programming Practise 2\startupCode\midterm_practice"/>
+			<item value="D:\OneDrive\USA\Maharishi\Academic\Courses - Campus\FPP\Assignment\Programming Practice and Quiz0\startup code\startup code\Exam"/>
+		</list>
+	</section>
+</section>

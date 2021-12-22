@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="lesson2"/>
+	<classpathentry kind="src" path="lesson3"/>
+	<classpathentry kind="src" path="lesson4"/>
+	<classpathentry kind="src" path="labs8and9solns"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Eclipse_Basic/fpp_workspace/jars/junit-4.10.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,11 @@
+package HashTableYT;
+
+public class HashTableArray<T> {
+	Entry[] arrayHash;
+	int size;
+	
+	public HashTableArray() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

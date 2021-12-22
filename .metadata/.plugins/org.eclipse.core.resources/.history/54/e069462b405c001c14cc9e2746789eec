@@ -1,0 +1,29 @@
+package practise_final_inclass;
+
+public class SearchForString {
+private String[] arr;
+	public SearchForString(String[] arr) {
+		this.arr = arr;
+	}
+	public boolean search(String s){
+		return recurSearch(s, arr.length -1);
+	}
+	private boolean recurSearch(String s, int upperIndex){
+		if(upperIndex == 0) {
+			if(s.equals(arr[0])) return true;
+		}
+		System.out.println("s is : " + s + " upperIndex is : " + upperIndex + " which is : " + arr[upperIndex]);
+		if(s.equals(arr[upperIndex])) {			
+			return true;
+		}else {
+			recurSearch(s, upperIndex - 1);
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		String[] str = {"Aaron", "Cloryse", "Bob", "Smith", "John", "Henry"};
+		SearchForString ss = new SearchForString(str);
+		System.out.println(ss.search("Bob"));
+	}
+}

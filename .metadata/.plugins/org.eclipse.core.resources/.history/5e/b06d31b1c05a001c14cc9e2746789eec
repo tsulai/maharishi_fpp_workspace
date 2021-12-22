@@ -1,0 +1,10 @@
+package HashTableYT;
+
+public class Main {
+
+	public static void main(String[] args) {
+		HashTableArray<String> hm = new HashTableArray<String>(10);
+
+	}
+
+}

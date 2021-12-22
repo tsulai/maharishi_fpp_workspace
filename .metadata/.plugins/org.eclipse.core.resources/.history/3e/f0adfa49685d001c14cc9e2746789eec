@@ -1,0 +1,47 @@
+package recursive_practise;
+/*1. Write a function that reverses a string. The input string is given as an array of characters 
+s.
+2. Reverse Linked List: Given the head of a singly linked list, reverse the list, and return the 
+reversed list.
+3. Merge Two Sorted Lists: You are given the heads of two sorted linked lists list1 and list2.
+Merge the two lists in a one sorted list. Return the head of the merged linked list.
+4. Find the frequency of given element in an array: Given array containing duplicates, find 
+given element’s frequency.
+5. Find the index of Max element in an array.
+ * 
+ */
+public class recursive_problems {
+	public MyStringLinkedList list;
+	
+	recursive_problems(MyStringLinkedList list){
+		this.list = list;
+	}
+	//1
+	public static String reverseString(char[] arr) {
+		int len = arr.length;
+		if(arr.length == 1) return String.valueOf(arr[0]);
+		char[] recurArr = new char[len-1];
+		System.arraycopy(arr, 0, recurArr, 0, len - 1);
+		return String.valueOf(arr[len -1]) + reverseString(recurArr); 
+		
+	}
+	//2
+	
+	
+	public static void main(String[] args) {
+		//1
+		System.out.println(reverseString(new char[] {'B', 'R', 'O', 'W', 'N'}));
+		//2
+		var list = new MyStringLinkedList();
+		String[] stringData =  {"big", "small", "tall", "short", "round", "square", 
+              "enormous", "tiny","gargantuan", "lilliputian", 
+              "numberless", "none", "vast", "miniscule"};
+	
+		//populate
+		for(int i = stringData.length - 1; i>=0; i--) {
+			list.addFirst(stringData[i]);
+		}
+		System.out.println(list);
+		
+	}
+}

@@ -1,0 +1,23 @@
+package HashTableYT;
+
+public class HashTableArray<T> {
+	Entry[] arrayHash;//entry တွေပါတဲ့ array - entry obj တစ်ခု ကြေငြာတာမဟုတ်
+	int size;
+	
+	public HashTableArray(int size) {
+		this.size = size;
+		arrayHash = new Entry[size];
+		for(int i = 0; i<size; i++) {
+			arrayHash[i] = new Entry();
+		}
+	}
+	//give key from entry
+	//GetHash give specific index to keep in array
+	int GetHash(int key) {
+		return key%size;
+	}
+	
+	public void put(int key, Object value) {
+		int HashIndex = GetHash(key);
+	}
+}

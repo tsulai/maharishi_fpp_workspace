@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MyStringLinkedList.java&apos; to &apos;FPPStudy/src/recursive_practise&apos;&#x0D;&#x0A;- Original project: &apos;Lab8&apos;&#x0D;&#x0A;- Destination element: &apos;FPPStudy/src/recursive_practise&apos;&#x0D;&#x0A;- Original element: &apos;prog8_2.MyStringLinkedList.java&apos;" description="Copy compilation unit" destination="=FPPStudy/src&lt;recursive_practise" element1="/src&lt;prog8_2{MyStringLinkedList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1639545789999" units="1" version="1.0"/>
+</session>
