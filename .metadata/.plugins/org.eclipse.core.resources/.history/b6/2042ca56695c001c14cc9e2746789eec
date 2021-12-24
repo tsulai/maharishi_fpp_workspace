@@ -1,5 +1,0 @@
-package prog12_1;
-
-public class IllegalClosedCurveException {
-
-}

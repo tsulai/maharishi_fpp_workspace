@@ -1,9 +1,0 @@
-package HashTableYT;
-
-public class HashTableArray {
-
-	public HashTableArray() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
